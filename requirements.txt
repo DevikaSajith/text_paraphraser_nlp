@@ -1,0 +1,19 @@
+# Core (rule-based paraphraser + evaluation)
+nltk>=3.9
+lemminflect>=0.2.3
+
+# Neural paraphraser
+torch>=2.2
+transformers>=4.40
+sentencepiece>=0.2
+protobuf
+
+# Semantic-similarity scoring with sentence embeddings (falls back to BoW cosine if missing)
+sentence-transformers>=3.0
+
+# Demo app
+streamlit>=1.35
+pandas>=2.0
+
+# Tests
+pytest>=8.0
